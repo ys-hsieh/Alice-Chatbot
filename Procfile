@@ -1,1 +1,1 @@
-web: gunicorn chatbot_test.wsgi
+web: gunicorn Alice-Chatbot.wsgi
