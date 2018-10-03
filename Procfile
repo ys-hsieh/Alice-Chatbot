@@ -1,0 +1,1 @@
+web: gunicorn alice-maru-chatbot.wsgi
