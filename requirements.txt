@@ -1,2 +1,2 @@
-line-bot-sdk==1.8.0
-gunicorn==19.3.0
+line-bot-sdk == 1.8.0
+gunicorn >= 19.5.0
