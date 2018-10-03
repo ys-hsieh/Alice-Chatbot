@@ -1,0 +1,1 @@
+web: gunicorn alice_maru_chatbot:chatbot_test
