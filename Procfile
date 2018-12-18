@@ -1,1 +1,1 @@
-web: python chatbot_test.py
+web: python controller/chatbot_test.py
