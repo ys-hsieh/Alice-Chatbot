@@ -8,10 +8,10 @@ from linebot.exceptions import (
 )
 from linebot.models import *
 
-import littleManDAO
+import littleMaruDAO
 
 app = Flask(__name__)
-sec = littleManDAO.getToken()
+sec = littleMaruDAO.getToken()
 # Channel Access Token
 line_bot_api = LineBotApi('7QOb0ctgmnDIMgQn8f6xx5Sw8o/ubO7/2xad8HbcREROFTlmCTDQI87Y12nrTvXfwni4NfLyU5g6ZkmPMe7sRMjbbtXyg2wCHMVNKjf/vH7IR6GJrFyu8uMBuROMWJXWIJsbQQ51MIPFVoE2xqPUZwdB04t89/1O/w1cDnyilFU=')
 #line_bot_api = LineBotApi(sec[0])
