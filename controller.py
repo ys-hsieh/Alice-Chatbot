@@ -13,7 +13,7 @@ line_bot_api = LineBotApi(tokens[0])
 # Channel Secret
 handler = WebhookHandler(tokens[1])
 
-# listem on the income message /callback 的 Post Request
+# callback listen to the post requests
 @app.route("/callback", methods=['POST'])
 def callback():
     # get X-Line-Signature header value
