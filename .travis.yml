@@ -5,3 +5,10 @@ install:
   - pip install -r requirements.txt
 script:
   - pytest
+deploy:
+  provider: heroku
+  api_key:
+    secure: 720f1644-b6fe-4eaa-8e61-125f0e485d78
+  app: alice-maru-chatbot
+  on:
+    repo: alberthsies/Alice-Chatbot
